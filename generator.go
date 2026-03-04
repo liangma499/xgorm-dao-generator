@@ -8,7 +8,8 @@ import (
 	"path/filepath"
 	"reflect"
 	"strings"
-	"xgorm-dao-generator/template"
+
+	"github.com/liangma499/xgorm-dao-generator/template"
 
 	"golang.org/x/tools/go/packages"
 )

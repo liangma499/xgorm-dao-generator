@@ -1,4 +1,4 @@
-module xgorm-dao-generator/example
+module github.com/liangma499/xgorm-dao-generator/example
 
 go 1.20
 

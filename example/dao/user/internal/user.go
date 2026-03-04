@@ -12,7 +12,8 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	modelpkg "xgorm-dao-generator/example/model"
+
+	modelpkg "github.com/liangma499/xgorm-dao-generator/example/model"
 
 	"gorm.io/gorm"
 )

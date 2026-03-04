@@ -1,17 +1,17 @@
 package mail
 
 import (
-	"xgorm-dao-generator/example/dao/mail/internal"
+	"github.com/liangma499/xgorm-dao-generator/example/dao/mail/internal"
 	"gorm.io/gorm"
 )
 
 type (
-	Columns = internal.Columns
-	OrderBy = internal.OrderBy
+	Columns    = internal.Columns
+	OrderBy    = internal.OrderBy
 	FilterFunc = internal.FilterFunc
 	UpdateFunc = internal.UpdateFunc
 	ColumnFunc = internal.ColumnFunc
-	OrderFunc = internal.OrderFunc
+	OrderFunc  = internal.OrderFunc
 )
 
 type Mail struct {

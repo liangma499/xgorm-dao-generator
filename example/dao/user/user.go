@@ -2,19 +2,20 @@ package user
 
 import (
 	"sync"
-	"xgorm-dao-generator/example/dao/user/internal"
-	modelpkg "xgorm-dao-generator/example/model"
-	mysqlimp "xgorm-dao-generator/example/bbb/cc"
+
+	mysqlimp "github.com/liangma499/xgorm-dao-generator/example/bbb/cc"
+	"github.com/liangma499/xgorm-dao-generator/example/dao/user/internal"
+	modelpkg "github.com/liangma499/xgorm-dao-generator/example/model"
 	"gorm.io/gorm"
 )
 
 type (
-	Columns = internal.Columns
-	OrderBy = internal.OrderBy
+	Columns    = internal.Columns
+	OrderBy    = internal.OrderBy
 	FilterFunc = internal.FilterFunc
 	UpdateFunc = internal.UpdateFunc
 	ColumnFunc = internal.ColumnFunc
-	OrderFunc = internal.OrderFunc
+	OrderFunc  = internal.OrderFunc
 )
 
 type User struct {
@@ -24,6 +25,7 @@ type User struct {
 func NewUser(db *gorm.DB) *User {
 	return &User{User: internal.NewUser(db)}
 }
+
 var (
 	once     sync.Once
 	instance *User
