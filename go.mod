@@ -1,4 +1,4 @@
-module github.com/liangma499/xgorm-dao-generator
+module github.com/xbaseio/xgorm-dao-generator
 
 go 1.25.0
 

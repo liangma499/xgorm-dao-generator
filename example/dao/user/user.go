@@ -3,9 +3,9 @@ package user
 import (
 	"sync"
 
-	mysqlimp "github.com/liangma499/xgorm-dao-generator/example/bbb/cc"
-	"github.com/liangma499/xgorm-dao-generator/example/dao/user/internal"
-	modelpkg "github.com/liangma499/xgorm-dao-generator/example/model"
+	mysqlimp "github.com/xbaseio/xgorm-dao-generator/example/bbb/cc"
+	"github.com/xbaseio/xgorm-dao-generator/example/dao/user/internal"
+	modelpkg "github.com/xbaseio/xgorm-dao-generator/example/model"
 	"gorm.io/gorm"
 )
 

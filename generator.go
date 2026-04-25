@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/liangma499/xgorm-dao-generator/template"
+	"github.com/xbaseio/xgorm-dao-generator/template"
 
 	"golang.org/x/tools/go/packages"
 )

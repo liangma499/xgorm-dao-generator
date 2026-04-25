@@ -1,7 +1,7 @@
 package maile
 
 import (
-	"github.com/liangma499/xgorm-dao-generator/example/dao/mail-e/internal"
+	"github.com/xbaseio/xgorm-dao-generator/example/dao/mail-e/internal"
 	"gorm.io/gorm"
 )
 

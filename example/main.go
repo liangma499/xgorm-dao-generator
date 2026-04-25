@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/liangma499/xgorm-dao-generator/example/dao/mail"
-	"github.com/liangma499/xgorm-dao-generator/example/model"
+	"github.com/xbaseio/xgorm-dao-generator/example/dao/mail"
+	"github.com/xbaseio/xgorm-dao-generator/example/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
